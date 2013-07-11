@@ -1,0 +1,19 @@
+{
+    "name": "jtreminio/aura-sql-service-provider",
+    "description": "A config ServiceProvider for Aura.Sql",
+    "keywords": ["silex"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan Treminio",
+            "email": "jtreminio@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "~1.0",
+        "aura/sql":    "~1.1"
+    },
+    "autoload": {
+        "psr-0": { "jtreminio\\Silex": "src" }
+    }
+}
